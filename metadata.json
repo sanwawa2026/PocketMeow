@@ -1,0 +1,6 @@
+{
+  "name": "PocketMeow 口袋主子",
+  "description": "集 3D 骨骼互动、AI 视觉动态换肤、零延迟本地猫语翻译与毒舌圣旨卡于一体的赛博宠物陪伴应用。",
+  "requestFramePermissions": ["microphone", "camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
