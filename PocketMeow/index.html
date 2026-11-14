@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <meta name="theme-color" content="#EEF1F5" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <title>PocketMeow 口袋主子 - 3D 赛博伴侣</title>
+    <meta name="description" content="PocketMeow 口袋主子：集 3D 骨骼互动、AI 视觉动态换肤、零延迟本地猫语翻译与毒舌圣旨收藏卡于一体的赛博宠物陪伴应用。" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Noto+Sans+SC:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700&display=swap" rel="stylesheet" />
+    <script>
+      (function () {
+        function isHmrNoise(str) {
+          if (!str) return false;
+          var s = String(str);
+          return s.indexOf('WebSocket') !== -1 || s.indexOf('vite:ws') !== -1 || s.indexOf('@vite/client') !== -1;
+        }
+        window.addEventListener('unhandledrejection', function (e) {
+          var m = (e.reason && (e.reason.message || String(e.reason))) || '';
+          if (isHmrNoise(m)) {
+            e.preventDefault();
+          }
+        }, true);
+      })();
+    </script>
+  </head>
+  <body class="bg-[#EEF1F5] text-slate-900 antialiased selection:bg-amber-200 selection:text-slate-900">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
